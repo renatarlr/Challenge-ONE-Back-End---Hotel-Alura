@@ -73,8 +73,11 @@ foreign key (id_reserva) references reservas(id)
 
 
 
-https://github.com/renatarlr/Challenge-ONE-Back-End---Hotel-Alura/assets/129464869/671e151f-05c3-4c73-8017-5fa964d43754
 
+
+
+
+https://github.com/renatarlr/Challenge-ONE-Back-End---Hotel-Alura/assets/129464869/b81d59c6-ca8b-4c9b-a36d-e945d7fff118
 
 
 # FIM...

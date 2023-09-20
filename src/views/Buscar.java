@@ -80,7 +80,7 @@ public class Buscar extends JFrame {
 		this.reservasControl = new ReservaController();
 		this.hospedesControl = new HospedesController();
 		
-		Color RedCorRGB = new Color(43, 188, 47);
+		Color CorRGB = new Color(43, 188, 47);
 		Color SuperCorRGB = new Color(43,188,47);
 	
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Buscar.class.getResource("/imagenes/LOGO RENATA pequeno.png")));
@@ -104,13 +104,13 @@ public class Buscar extends JFrame {
 		
 		
 		JLabel lblTitulo = new JLabel("SISTEMA DE BUSCA");
-		lblTitulo.setForeground(RedCorRGB);
+		lblTitulo.setForeground(CorRGB);
 		lblTitulo.setFont(new Font("Roboto Black", Font.BOLD, 24));
 		lblTitulo.setBounds(331, 62, 280, 42);
 		contentPane.add(lblTitulo);
 		
 		JTabbedPane panel = new JTabbedPane(JTabbedPane.TOP);
-		panel.setBackground(RedCorRGB);
+		panel.setBackground(CorRGB);
 		panel.setFont(new Font("Roboto", Font.PLAIN, 16));
 		panel.setBounds(20, 169, 865, 328);
 		contentPane.add(panel);
@@ -266,7 +266,7 @@ public class Buscar extends JFrame {
 		
 		
 		btnbuscar.setLayout(null);
-		btnbuscar.setBackground(RedCorRGB);
+		btnbuscar.setBackground(CorRGB);
 		btnbuscar.setBounds(748, 125, 122, 35);
 		btnbuscar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 		contentPane.add(btnbuscar);
@@ -299,7 +299,7 @@ public class Buscar extends JFrame {
 			}
 		});
 		btnEditar.setLayout(null);
-		btnEditar.setBackground(RedCorRGB);
+		btnEditar.setBackground(CorRGB);
 		btnEditar.setBounds(635, 508, 122, 35);
 		btnEditar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 		contentPane.add(btnEditar);
@@ -349,7 +349,7 @@ public class Buscar extends JFrame {
 		
 		
 		btnDeletar.setLayout(null);
-		btnDeletar.setBackground(RedCorRGB);
+		btnDeletar.setBackground(CorRGB);
 		btnDeletar.setBounds(767, 508, 122, 35);
 		btnDeletar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 		contentPane.add(btnDeletar);

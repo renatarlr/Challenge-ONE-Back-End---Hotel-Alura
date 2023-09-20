@@ -55,8 +55,7 @@ public class Login extends JFrame {
 	 */
 	public Login() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/imagenes/LOGO RENATA pequeno.png")));
-	//	Color RedCorRGB = new Color(205, 92, 92);
-	//	Color SuperCorRGB = new Color(178,34,34);
+	
 		setResizable(false);
 		setUndecorated(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -186,7 +185,7 @@ public class Login extends JFrame {
 		lblSenha.setBounds(65, 316, 140, 26);
 		panel.add(lblSenha);
 		
-		//JPanel btnLogin = new JPanel();  Novo Painel de Login
+		
 		JButton btnLogin = new JButton();
 				btnLogin.addActionListener(new usuariosController(this));
 		btnLogin.addMouseListener(new MouseAdapter() {

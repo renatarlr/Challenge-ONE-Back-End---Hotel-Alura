@@ -81,9 +81,9 @@ public class ReservasView extends JFrame {
 		setLocationRelativeTo(null);
 		setUndecorated(true);
 		
-		Color RedCorRGB = new Color(108, 187, 239);
+		Color CorRGB = new Color(108, 187, 239);
 		Color SuperCorRGB = new Color(28,33,125);
-		Color TomatoRGB = new Color(255,99,71);
+		Color RGB = new Color(255,99,71);
 		
 
 		
@@ -202,7 +202,7 @@ public class ReservasView extends JFrame {
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setBounds(428, 0, 482, 560);
-		panel_1.setBackground(RedCorRGB);
+		panel_1.setBackground(CorRGB);
 		panel.add(panel_1);
 		panel_1.setLayout(null);
 		
@@ -232,12 +232,12 @@ public class ReservasView extends JFrame {
 			}			
 			@Override
 			public void mouseExited(MouseEvent e) {
-				 btnexit.setBackground(RedCorRGB);
+				 btnexit.setBackground(CorRGB);
 			     labelExit.setForeground(Color.white);
 			}
 		});
 		btnexit.setLayout(null);
-		btnexit.setBackground(RedCorRGB);
+		btnexit.setBackground(CorRGB);
 		btnexit.setBounds(429, 0, 53, 36);
 		panel_1.add(btnexit);
 		

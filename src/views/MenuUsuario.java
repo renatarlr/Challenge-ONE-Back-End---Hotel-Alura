@@ -50,9 +50,9 @@ public class MenuUsuario extends JFrame {
 	 */
 	public MenuUsuario() {
 		
-		Color RedCorRGB = new Color(12, 138, 199);
+		Color CorRGB = new Color(12, 138, 199);
 		Color SuperCorRGB = new Color(12,138,34);
-		Color TomatoRGB = new Color(255,103,0);
+		Color RGB = new Color(255,103,0);
 		
 		
 		setIconImage(Toolkit.getDefaultToolkit().getImage(MenuUsuario.class.getResource("/imagenes/LOGO RENATA pequeno.png")));
@@ -82,7 +82,7 @@ public class MenuUsuario extends JFrame {
 		});
 		
 		JPanel panelMenu = new JPanel();
-		panelMenu.setBackground(RedCorRGB);
+		panelMenu.setBackground(CorRGB);
 		panelMenu.setBounds(0, 0, 257, 609);
 		contentPane.add(panelMenu);
 		panelMenu.setLayout(null);
@@ -91,7 +91,7 @@ public class MenuUsuario extends JFrame {
 		btnBuscar.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseEntered(MouseEvent e) {
-				btnBuscar.setBackground(TomatoRGB);				
+				btnBuscar.setBackground(RGB);				
 			}
 			@Override
 			public void mouseExited(MouseEvent e) {
@@ -128,7 +128,7 @@ public class MenuUsuario extends JFrame {
 		btnRegistro.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseEntered(MouseEvent e) {
-				btnRegistro.setBackground(TomatoRGB);				
+				btnRegistro.setBackground(RGB);				
 			}
 			@Override
 			public void mouseExited(MouseEvent e) {
@@ -193,7 +193,7 @@ public class MenuUsuario extends JFrame {
 		labelExit.setFont(new Font("Roboto", Font.PLAIN, 18));
 		
 	    JPanel panelFecha = new JPanel();
-	    panelFecha.setBackground(RedCorRGB);
+	    panelFecha.setBackground(CorRGB);
 	    panelFecha.setBounds(256, 84, 688, 121);
 	    contentPane.add(panelFecha);
 	    panelFecha.setLayout(null);

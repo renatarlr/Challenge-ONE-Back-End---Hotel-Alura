@@ -44,7 +44,7 @@ public class MenuPrincipal extends JFrame {
 	 */
 	public MenuPrincipal() {
 		
-		Color RedCorRGB = new Color(205, 92, 92);
+		Color CorRGB = new Color(205, 92, 92);
 		Color SuperCorRGB = new Color(25,127,39);
 		
 		setIconImage(Toolkit.getDefaultToolkit().getImage(MenuPrincipal.class.getResource("/imagenes/LOGO RENATA pequeno.png")));

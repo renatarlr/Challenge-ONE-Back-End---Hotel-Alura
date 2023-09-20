@@ -69,9 +69,9 @@ public class RegistroHospede extends JFrame {
 		this.hospedesControl = new HospedesController();
 		this.reservaControl = new ReservaController();
 		
-		Color RedCorRGB = new Color(43, 148, 47);
+		Color CorRGB = new Color(43, 148, 47);
 		Color SuperCorRGB = new Color(43, 148, 47);
-		Color TomatoRGB = new Color(43, 148, 47);
+		Color RGB = new Color(43, 148, 47);
 		
 		setIconImage(Toolkit.getDefaultToolkit().getImage(RegistroHospede.class.getResource("/imagenes/LOGO RENATA pequeno.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -151,12 +151,12 @@ public class RegistroHospede extends JFrame {
 			}			
 			@Override
 			public void mouseExited(MouseEvent e) {
-				 btnAtras.setBackground(RedCorRGB);
+				 btnAtras.setBackground(CorRGB);
 			     labelAtras.setForeground(Color.white);
 			}
 		});
 		btnAtras.setLayout(null);
-		btnAtras.setBackground(RedCorRGB);
+		btnAtras.setBackground(CorRGB);
 		btnAtras.setBounds(0, 0, 53, 36);
 		header.add(btnAtras);
 		
@@ -238,7 +238,7 @@ public class RegistroHospede extends JFrame {
 		
 		JLabel lblTitulo = new JLabel("REGISTRO HÓSPEDE");
 		lblTitulo.setBounds(606, 55, 234, 42);
-		lblTitulo.setForeground(RedCorRGB);
+		lblTitulo.setForeground(CorRGB);
 		lblTitulo.setFont(new Font("Roboto Black", Font.PLAIN, 20));
 		contentPane.add(lblTitulo);
 		
@@ -262,38 +262,38 @@ public class RegistroHospede extends JFrame {
 		
 		JSeparator separator_1_2 = new JSeparator();
 		separator_1_2.setBounds(560, 170, 289, 2);
-		separator_1_2.setForeground(RedCorRGB);
-		separator_1_2.setBackground(RedCorRGB);
+		separator_1_2.setForeground(CorRGB);
+		separator_1_2.setBackground(CorRGB);
 		contentPane.add(separator_1_2);
 		
 		JSeparator separator_1_2_1 = new JSeparator();
 		separator_1_2_1.setBounds(560, 240, 289, 2);
-		separator_1_2_1.setForeground(RedCorRGB);
-		separator_1_2_1.setBackground(RedCorRGB);
+		separator_1_2_1.setForeground(CorRGB);
+		separator_1_2_1.setBackground(CorRGB);
 		contentPane.add(separator_1_2_1);
 		
 		JSeparator separator_1_2_2 = new JSeparator();
 		separator_1_2_2.setBounds(560, 314, 289, 2);
-		separator_1_2_2.setForeground(RedCorRGB);
-		separator_1_2_2.setBackground(RedCorRGB);
+		separator_1_2_2.setForeground(CorRGB);
+		separator_1_2_2.setBackground(CorRGB);
 		contentPane.add(separator_1_2_2);
 		
 		JSeparator separator_1_2_3 = new JSeparator();
 		separator_1_2_3.setBounds(560, 386, 289, 2);
-		separator_1_2_3.setForeground(RedCorRGB);
-		separator_1_2_3.setBackground(RedCorRGB);
+		separator_1_2_3.setForeground(CorRGB);
+		separator_1_2_3.setBackground(CorRGB);
 		contentPane.add(separator_1_2_3);
 		
 		JSeparator separator_1_2_4 = new JSeparator();
 		separator_1_2_4.setBounds(560, 457, 289, 2);
-		separator_1_2_4.setForeground(RedCorRGB);
-		separator_1_2_4.setBackground(RedCorRGB);
+		separator_1_2_4.setForeground(CorRGB);
+		separator_1_2_4.setBackground(CorRGB);
 		contentPane.add(separator_1_2_4);
 		
 		JSeparator separator_1_2_5 = new JSeparator();
 		separator_1_2_5.setBounds(560, 529, 289, 2);
-		separator_1_2_5.setForeground(RedCorRGB);
-		separator_1_2_5.setBackground(RedCorRGB);
+		separator_1_2_5.setForeground(CorRGB);
+		separator_1_2_5.setBackground(CorRGB);
 		contentPane.add(separator_1_2_5);
 		
 		JPanel btnsalvar = new JPanel();
@@ -305,7 +305,7 @@ public class RegistroHospede extends JFrame {
 			}
 		});
 		btnsalvar.setLayout(null);
-		btnsalvar.setBackground(RedCorRGB);
+		btnsalvar.setBackground(CorRGB);
 		contentPane.add(btnsalvar);
 		btnsalvar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 		
@@ -318,7 +318,7 @@ public class RegistroHospede extends JFrame {
 		
 		JPanel panel = new JPanel();
 		panel.setBounds(0, 0, 489, 634);
-		panel.setBackground(RedCorRGB);
+		panel.setBackground(CorRGB);
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
